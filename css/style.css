@@ -1,0 +1,397 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap");
+:root {
+  --black: #2c2c54;
+}
+
+* {
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: all 0.2s linear;
+}
+body {
+  background-color: #ffffff;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-padding-top: 6rem;
+  scroll-behavior: smooth;
+}
+.See-details {
+  padding: 8px 16px;
+  background-color: #fff;
+  border: 1px solid gray;
+  color: red;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 8px;
+}
+.closing-soon {
+  margin-top: 5rem;
+  /* background-color: #f6f6f6; */
+  margin-bottom: 3rem;
+}
+.closing-soon .addcart a {
+  padding: 6px 12px;
+  border-radius: 15px;
+  background-color: #ffffff;
+  color: #222;
+  font-weight: 600;
+  text-decoration: none;
+  border: 1px solid gray;
+}
+.closing-soon .addcart a:hover {
+  background-color: #0085ff;
+  color: #ffffff;
+  font-weight: 600;
+}
+.text {
+  margin-top: 5px;
+}
+.text .WIN {
+  color: red;
+}
+.text .AED {
+  color: #000;
+  font-weight: 600;
+}
+.product-one {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  border: 0px solid #111;
+}
+.advertising {
+  margin-top: 6rem;
+  margin-bottom: 5rem;
+}
+.advertising .ADS {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.advertising .ADS-one {
+  margin-bottom: 20px;
+}
+/* Explore for products 2  */
+.Explore {
+  margin-top: 8rem;
+  margin-bottom: 9rem;
+}
+.Explore h3 {
+  margin-left: 70px;
+  margin-bottom: 10px;
+}
+.Explore-list {
+  list-style: none;
+}
+.Explore-list li {
+  display: inline-block;
+  margin: 0 5px;
+}
+.Explore-list li .fa-bolt {
+  font-size: 25px;
+  color: #f9d79a;
+}
+.Explore-paragraf {
+  padding-top: 100px;
+  margin-left: 40px;
+}
+.Explore-paragraf-four {
+  color: #222;
+  font-weight: 700;
+}
+.Explore-one {
+  border: 1px solid gray;
+  border-radius: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background-color: #f6f6f6;
+  box-shadow: 2px 9px 2px rgba(0, 0, 0, 0.4);
+  /* margin-top: 7rem; */
+  margin-bottom: 7rem;
+}
+.Explore .Explore-head {
+  font-size: 35px;
+  margin-bottom: 12px;
+}
+.Explore .Explore-head .one {
+  color: #ff2222;
+  font-style: italic;
+  font-size: 60px;
+  font-weight: 900;
+}
+.Explore .Explore-head .two {
+  color: #555;
+  font-weight: 600;
+}
+.Explore .Explore-head .three {
+  color: #0082ff;
+  font-weight: 600;
+}
+/* button one */
+.Explore-buttons {
+  margin-bottom: 2.5rem;
+}
+.Explore-buttons .btn-two {
+  padding: 10px 20px;
+  border-radius: 6px;
+  background-color: #2f85e9;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 800;
+  text-decoration: none;
+  border: 0px solid gray;
+}
+
+.Explore-buttons .btn-two:hover {
+  color: #ffffff;
+  background-color: #0062ad;
+  font-weight: 600;
+}
+/* button two */
+.Explore-buttons .btn-three {
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 17px;
+  background-color: #ffffff;
+  color: #333;
+  font-weight: 800;
+  text-decoration: none;
+  border: 1px solid gray;
+}
+.Explore-buttons .btn-three:hover {
+  color: #ffffff;
+  background-color: #efefef;
+  font-weight: 600;
+}
+.wishlist-icons .fa-heart {
+  color: #222;
+  font-size: 18px;
+  padding: 5px 8px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+.wishlist-icons .fa-share {
+  color: #222;
+  font-size: 18px;
+  padding: 5px 8px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+/* OWL */
+
+.owl-carsoul {
+  width: 100%;
+  height: 840px;
+  padding: 15px;
+  background-color: #fff;
+  margin: 10px auto;
+  position: relative;
+}
+main .txt-carsul-OWL {
+  padding: 10px;
+  text-align: center;
+  /*font-size: 30px;*/
+  color: #554;
+}
+.txt-carsul-OWL h1 {
+  font-size: 50px;
+}
+.txt-carsul-OWL p {
+  width: 60%;
+  padding: 5px;
+  margin: auto;
+  line-height: 30px;
+}
+.owl-carsoul-sold-out {
+  margin-left: 45px;
+  margin-bottom: 15px;
+  color: #000;
+  font-size: 25px;
+  font-weight: 900;
+}
+.swip {
+  position: absolute;
+  right: 10%;
+  margin: 10px;
+  padding: 25px;
+}
+.swip .fa-chevron-left {
+  padding: 10px 15px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  color: #000;
+  cursor: pointer;
+}
+.swip .fa-chevron-right {
+  padding: 10px 15px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  color: #000;
+  cursor: pointer;
+}
+.swip .fa-chevron-right.active {
+  border: 1px solid whitesmoke;
+}
+section {
+  border-radius: 15px;
+  padding: 30px;
+  width: 98%;
+  height: 600px;
+  background-color: #f63435;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  overflow-x: auto;
+}
+section::-webkit-scrollbar {
+  display: none;
+}
+section .product {
+  min-width: 24%;
+  height: 70%;
+  background: #ffffff;
+  margin: 0 20px 0 0;
+  border-radius: 20px;
+  position: relative;
+  left: 0;
+  transition: 0.5s;
+}
+picture {
+  width: 100%;
+  height: 70%;
+  padding: 20px;
+  /*background: green;*/
+  display: flex;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+picture img {
+  width: 100%;
+}
+.img-two {
+  width: 60%;
+  position: absolute;
+  left: 15%;
+  top: 35%;
+}
+.fa-user-circle {
+  width: 60%;
+  color: #7000ff;
+  font-size: 65px;
+  position: absolute;
+  left: 40%;
+  top: 35%;
+}
+.september {
+  color: #f63435;
+  font-weight: 600;
+}
+.green {
+  color: #48b650;
+}
+.blue {
+  color: #7000ff;
+  font-weight: 900;
+}
+.black {
+  color: #000;
+  font-weight: 900;
+}
+.detail {
+  width: 90%;
+  margin: auto;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  font-size: 20px;
+  color: #000;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  section .product {
+    min-width: 49%;
+    margin: 0 10px 0 0;
+  }
+  .detail {
+    font-size: 16px;
+  }
+  .OWL-product-three {
+    padding: 6px 10px;
+  }
+}
+/* Charity Dubai */
+.txt-charity {
+  margin-left: 45px;
+  margin-bottom: 15px;
+}
+.learn-more {
+  padding: 8px 15px;
+  color: #333;
+  background-color: #fff;
+  border: 1px solid gray;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 19px;
+}
+.learn-more:hover {
+  padding: 8px 15px;
+  color: #fff;
+  background-color: #2f85e9;
+  border: 0px solid gray;
+}
+.charity-dubai {
+  padding: 15px;
+}
+.charity-dubai h2 {
+  margin-bottom: 15px;
+  margin-top: 15px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.charity-dubai-img {
+  margin-top: 20px;
+}
+/* footer */
+footer {
+  padding: 25px;
+  background-color: #f6f6f6;
+}
+.footer-TWO {
+  background-color: #f6f6f6;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+.footer-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-list-three li {
+  display: inline-block;
+  margin: 0 8px;
+}
+.footer-list-three li i {
+  background-color: #f6f6f6;
+  padding: 8px 12px;
+  border-radius: 50%;
+  font-size: 22px;
+}
+.footer-list-three li i:hover {
+  background-color: #f63435;
+  color: #fff;
+}
